@@ -75,6 +75,7 @@ uma lista vazia no final de seu programa.
 del (convidados[0])
 del (convidados[0])
 
+
 print()
 print(convidados)
 
