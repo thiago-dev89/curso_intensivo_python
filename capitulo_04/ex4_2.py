@@ -8,17 +8,17 @@
 
 '''
 lista_animais =[]
-animais = ''
+animail = ''
 
-while animais != 'S'.lower():
-	animais = input("Informe um nome de animal - 'S' para encerrar: ")
+while animail != 'S'.lower():
+	animail = input("Informe um nome de animal - 'S' para encerrar: ")
 	
-	if animais == 'S'.lower():
+	if animail == 'S'.lower():
 		print('\nSaindo!\n')
 		break
 	else:
 		print('Animal adicionado com sucesso!\n')
-		lista_animais.append(animais)
+		lista_animais.append(animail)
 	
 for i in range(len(lista_animais)):
 	print(f'{i+1}. - {lista_animais[i]}')
