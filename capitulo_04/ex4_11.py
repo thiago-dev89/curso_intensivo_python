@@ -17,22 +17,22 @@ friend_pizzas = my_pizzas[:]
 
 print('Minhas pizzas: ')
 for pizza in my_pizzas:
-    print(pizza.title())
+    print(f'- {pizza.title()}')
 
 print('\nPizzas do meu amigo: ')
 for pizza in friend_pizzas:
-    print(pizza.title())
+    print(f'- {pizza.title()}')
 
 my_pizzas.append('calabresa')
 friend_pizzas.append('presunto')
 
 print('\nMinhas pizzas favoritas: ')
 for pizza in my_pizzas:
-    print(pizza.title())
+    print(f'- {pizza.title()}')
 
 print('\nPizzas favoritas do meu amigo: ')
 for pizza in friend_pizzas:
-    print(pizza.title())
+    print(f'- {pizza.title()}')
 
 
 
