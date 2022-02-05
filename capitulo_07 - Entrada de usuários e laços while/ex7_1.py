@@ -10,7 +10,8 @@ print('\nSeja bem-vindo ao nosso sistema de aluguel de carros.\n')
 
 nome = input('Qual o seu nome? ')
 
-print(f'\nOk, {nome}. Agora preciso saber qual o tipo de carro que gostaria de alugar.')
+print(
+    f'\nOk, {nome}. Agora preciso saber qual o tipo de carro que gostaria de alugar.')
 tipo_carro = input('\nInforme o tipo de carro: ')
 
-print(f'\nDeixe-me ver se consigo um {tipo_carro} para você.') 
+print(f'\nDeixe-me ver se consigo um {tipo_carro} para você.')
