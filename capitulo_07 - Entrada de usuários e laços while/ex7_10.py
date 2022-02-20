@@ -47,6 +47,6 @@ while pesquisa_ativa:
 print('\n{:*^60}'.format(' RESULTADO DA PESQUISA '))
 
 for idx, pessoa in enumerate(respostas, 1):
-    print(f'\n{idx}° pessoa: ')
+    print(f'{idx}° pessoa: ')
     print(f'\tNome: {respostas[pessoa]["nome"].title()}')
-    print(f'\tLugar escolhido: {respostas[pessoa]["lugar_escolhido"].title()}')
+    print(f'\tLugar escolhido: {respostas[pessoa]["lugar_escolhido"].title()}\n')
